@@ -62,23 +62,23 @@ readln(taille);
 
 
 for i:=1 to taille do
-	begin
+begin
 
         for j:=1 to taille do
-			begin
+	begin
 
                 if (j=i) or (j=taille-(i-1))
-                    then
-                    write(car)
+                	then
+                	write(car)
                 else
-                write(' ');
+			write(' ');
 
 
-            end;
+	end;
 			
-    writeln()
+	writeln()
 
-    end;
+end;
 
 readln();
 
